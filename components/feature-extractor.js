@@ -9,25 +9,22 @@ const FeatureExtractor = () => {
             type="text"
           />
           <div className="self-stretch flex flex-row items-start justify-start gap-[14px] mq450:flex-wrap">
-            <div className="rounded-46xl bg-gray-500 [backdrop-filter:blur(4px)] flex flex-row items-start justify-start pt-[9px] pb-2.5 pr-3 pl-4 gap-[12px] z-[1]">
-              <div className="h-11 w-[121px] relative rounded-46xl bg-gray-500 [backdrop-filter:blur(4px)] hidden" />
-              <div className="relative tracking-[0.02em] leading-[157.13%] inline-block min-w-[66px] z-[2]">
-                Country
-              </div>
-              <div className="flex flex-col items-start justify-start pt-2 px-0 pb-0">
-                <img
-                  className="w-[15px] h-2.5 relative rounded-12xs object-contain z-[2]"
-                  alt=""
-                  src="/polygon-2.svg"
-                />
-              </div>
-            </div>
-            <button className="cursor-pointer [border:none] pt-2.5 px-[22px] pb-[9px] bg-gray-500 flex-1 rounded-46xl [backdrop-filter:blur(4px)] flex flex-row items-start justify-start box-border min-w-[125px] whitespace-nowrap z-[1] hover:bg-gainsboro-400">
-              <div className="h-11 w-[228px] relative rounded-46xl bg-gray-500 [backdrop-filter:blur(4px)] hidden" />
-              <div className="relative text-base tracking-[0.02em] leading-[157.13%] font-libre-caslon-text text-darkslategray text-left inline-block min-w-[125px] z-[2]">
-                Mobile Number
-              </div>
-            </button>
+            <select className="w-full [border:none] [outline:none] bg-gray-500 self-stretch h-11 rounded-46xl [backdrop-filter:blur(4px)] flex flex-row items-start justify-start pt-[9px] px-[22px] pb-2.5 box-border font-libre-caslon-text text-base text-darkslategray min-w-[118px] z-[1]">
+              {/* Dropdown Menu */}
+
+              <option value="US">US (+1)</option>
+              {/* <option value="CA">Canada (+1)</option> */}
+              <option value="GB">UK (+44)</option>
+              {/* Add more options for other countries */}
+
+              {/* Arrow Icon */}
+            </select>
+
+            <input
+              className="w-full [border:none] [outline:none] bg-gray-500 self-stretch h-11 rounded-46xl [backdrop-filter:blur(4px)] flex flex-row items-start justify-start pt-[9px] px-[22px] pb-2.5 box-border font-libre-caslon-text text-base text-darkslategray min-w-[218px] z-[1]"
+              placeholder="Mobile Number"
+              type="text"
+            />
           </div>
         </div>
         <div className="flex-1 flex flex-col items-start justify-start gap-[22px] min-w-[236px] max-w-full">
@@ -36,19 +33,11 @@ const FeatureExtractor = () => {
             placeholder="Email Address"
             type="text"
           />
-          <div className="self-stretch rounded-46xl bg-gray-500 [backdrop-filter:blur(4px)] flex flex-row items-start justify-between pt-2.5 pb-[9px] pr-4 pl-[26px] box-border max-w-full gap-[20px] z-[1]">
-            <div className="h-11 w-[363px] relative rounded-46xl bg-gray-500 [backdrop-filter:blur(4px)] hidden max-w-full" />
-            <div className="relative tracking-[0.02em] leading-[157.13%] inline-block min-w-[99px] z-[2]">
-              Our Projects
-            </div>
-            <div className="flex flex-col items-start justify-start pt-[7px] px-0 pb-0">
-              <img
-                className="w-[15px] h-2.5 relative rounded-12xs object-contain z-[2]"
-                alt=""
-                src="/polygon-2.svg"
-              />
-            </div>
-          </div>
+          <select className="self-stretch rounded-46xl bg-gray-500 backdrop-filter-blur flex flex-row items-start justify-between pt-4 pb-[9px] pr-[14px] pl-[26px] box-border max-w-full gap-[20px] z-[1] font-libre-caslon-text ">
+            <option value="project1">Sample Project 1</option>
+            <option value="project2">Sample Project 2</option>
+            <option value="project3">Sample Project 3</option>
+          </select>
         </div>
       </div>
     </div>

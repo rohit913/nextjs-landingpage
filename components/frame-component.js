@@ -19,6 +19,7 @@ const FrameComponent = () => {
             </div>
           </div>
         </div>
+
         <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[25px] max-w-full text-center text-base text-black font-libre-caslon-text">
           <div className="flex-1 flex flex-col items-start justify-start min-w-[307px] min-h-[371px] max-w-full">
             <div className="self-stretch flex flex-row items-start justify-end max-w-full">

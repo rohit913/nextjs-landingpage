@@ -5,9 +5,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   // Use output: export to enable static HTML export
-  output: {
-    export: true,
-  },
+  output: "export",
 };
 
 module.exports = nextConfig;

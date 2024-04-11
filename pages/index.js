@@ -60,7 +60,7 @@ const Desktop = () => {
         PREMIUM . MODERN . TRADITIONAL . ECO-FRIENDLY
       </h3>
       <FrameComponent4 />
-      <h3 className="!m-[0] w-[1856px] absolute top-[817.96px] left-[1556.28px] text-inherit font-normal font-inherit inline-block whitespace-nowrap [transform:_rotate(1.3deg)] [transform-origin:0_0] z-[3] mq450:text-lg">
+      <h3 className="!m-[0] w-[1856px] absolute top-[817.96px] left-[3.28px] text-inherit font-normal font-inherit inline-block whitespace-nowrap [transform:_rotate(1.3deg)] [transform-origin:0_0] z-[3] mq450:text-lg">
         LUXURY . PREMIUM . MODERN . TRADITIONAL . ECO-FRIENDLY . LUXURY .
         PREMIUM . MODERN . TRADITIONAL . ECO-FRIENDLY
       </h3>
@@ -70,8 +70,8 @@ const Desktop = () => {
         src="/rectangle-3.svg"
       />
       <section className="self-stretch h-[260.5px] relative">
-        <div className="absolute top-[65.72px] left-[-55.3px] bg-darkolivegreen w-[1652px] h-[50px] [transform:_rotate(-2.3deg)] [transform-origin:0_0]" />
-        <div className="absolute top-[25.71px] left-[-54.52px] bg-darkslateblue-100 w-[1652px] h-[50px] [transform:_rotate(1.3deg)] [transform-origin:0_0] z-[2]" />
+        <div className="absolute top-[63.72px] left-[-55.3px] bg-darkolivegreen w-[1652px] h-[50px] [transform:_rotate(-2.3deg)] [transform-origin:0_0]" />
+        <div className="absolute top-[-25.71px] left-[-54.52px] bg-darkslateblue-100 w-[1652px] h-[50px] [transform:_rotate(.9deg)] [transform-origin:0_0] z-[2]" />
       </section>
       <FrameComponent3 />
       <FrameComponent1 />

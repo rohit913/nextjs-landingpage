@@ -71,9 +71,9 @@ const FunctionLibrary = () => {
                 className="w-5 h-[19px] relative"
                 loading="lazy"
                 alt=""
-                src="/.svg"
+                src="/1.svg"
               />
-              <img className="w-5 h-[19px] relative" alt="" src="/.svg" />
+              <img className="w-5 h-[19px] relative" alt="" src="/1.svg" />
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@ const FunctionLibrary = () => {
                 </p>
               </div>
             </div>
-            <img className="h-[19px] w-5 relative" alt="" src="/.svg" />
+            <img className="h-[19px] w-5 relative" alt="" src="/1.svg" />
           </div>
         </div>
       </div>

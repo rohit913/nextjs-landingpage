@@ -36,13 +36,13 @@ const FrameComponent3 = () => {
           />
         </div>
       </div>
-      <div className="w-[123px] absolute !m-[0] bottom-[-25px] left-[221px] leading-[100%] uppercase inline-block min-w-[123px] z-[1] mq450:text-11xl mq450:leading-[30px] mq750:text-21xl mq750:leading-[40px]">
+      <div className="w-[123px] absolute !m-[0] bottom-[-25px] left-[122px] leading-[100%] uppercase inline-block min-w-[123px] z-[1] mq450:text-11xl mq450:leading-[30px] mq750:text-21xl mq750:leading-[40px]">
         3500+
       </div>
-      <div className="w-[122px] absolute !m-[0] right-[219px] bottom-[-25px] leading-[100%] uppercase inline-block min-w-[122px] z-[1] mq450:text-11xl mq450:leading-[30px] mq750:text-21xl mq750:leading-[40px]">
+      <div className="w-[122px] absolute !m-[0] right-[197px] bottom-[-25px] leading-[100%] uppercase inline-block min-w-[122px] z-[1] mq450:text-11xl mq450:leading-[30px] mq750:text-21xl mq750:leading-[40px]">
         3000+
       </div>
-      <div className="w-[62px] absolute !m-[0] bottom-[-25px] left-[690px] leading-[100%] uppercase inline-block min-w-[62px] z-[1] mq450:text-11xl mq450:leading-[30px] mq750:text-21xl mq750:leading-[40px]">
+      <div className="w-[62px] absolute !m-[0] bottom-[-25px] left-[600px] leading-[100%] uppercase inline-block min-w-[62px] z-[1] mq450:text-11xl mq450:leading-[30px] mq750:text-21xl mq750:leading-[40px]">
         2.5
       </div>
     </section>

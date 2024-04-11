@@ -35,10 +35,10 @@ const FrameComponent = () => {
                 />
               </div>
             </div>
-            <button className="cursor-pointer [border:none] pt-[33px] pb-8 pr-5 pl-[21px] bg-olivedrab-200 h-[65px] flex flex-row items-start justify-start box-border z-[2] mt-[-218px]">
+            <button className="cursor-pointer [border:none] pt-[23px] pb-8 pr-5 pl-[21px] bg-olivedrab-200 h-[65px] flex flex-row items-start justify-start box-border z-[2] mt-[-218px]">
               <div className="h-[65px] w-[65px] relative bg-olivedrab-200 hidden" />
               <img
-                className="h-0 w-6 relative object-contain z-[3]"
+                className="h-[22.1px] w-6 relative object-contain z-[3]"
                 alt=""
                 src="/arrow-5.svg"
               />
@@ -56,7 +56,7 @@ const FrameComponent = () => {
                 propMinWidth="64px"
               />
             </div>
-            <button className="cursor-pointer [border:none] pt-[33px] pb-[9.9px] pr-5 pl-[21px] bg-olivedrab-200 flex flex-row items-start justify-start z-[2] mt-[-218px]">
+            <button className="cursor-pointer [border:none] pt-[23px] pb-8 pr-5 pl-[21px] bg-olivedrab-200 h-[65px] flex flex-row items-start justify-start box-border z-[2] mt-[-218px]">
               <div className="h-[65px] w-[65px] relative bg-olivedrab-200 hidden" />
               <img
                 className="h-[22.1px] w-6 relative z-[3]"

@@ -12,20 +12,24 @@ const ConditionBuilder = () => {
                 <span className="leading-[207.26%]">The Group</span>
               </span>
             </p>
-            <p className="[margin-block-start:0] [margin-block-end:11px]">
+            <p className="[margin-block-start:0] [margin-block-end:11px] text-mini text-white font-libre-caslon-text">
               <span>SRIAS Leadership</span>
             </p>
-            <p className="[margin-block-start:0] [margin-block-end:11px]">
+            <p className="[margin-block-start:0] [margin-block-end:11px] text-mini text-white font-libre-caslon-text">
+              {" "}
               <span>SRIAS Values</span>
             </p>
-            <p className="[margin-block-start:0] [margin-block-end:11px]">
+            <p className="[margin-block-start:0] [margin-block-end:11px] text-mini text-white font-libre-caslon-text">
+              {" "}
               <span>SRIAS Foundation</span>
             </p>
-            <p className="[margin-block-start:0] [margin-block-end:11px]">
+            <p className="[margin-block-start:0] [margin-block-end:11px] text-mini text-white font-libre-caslon-text">
+              {" "}
               <span>Investors</span>
             </p>
-            <p className="m-0">
-              <span>{`News & Events`}</span>
+            <p className="[margin-block-start:0] [margin-block-end:11px] text-mini text-white font-libre-caslon-text">
+              {" "}
+              <span>News & Events</span>
             </p>
           </div>
           <div className="h-[140px] relative inline-block z-[3]">
@@ -72,8 +76,8 @@ const ConditionBuilder = () => {
       </div>
       <div className="w-[1497px] h-full absolute !m-[0] top-[0px] bottom-[0px] left-[-32px]">
         <div className="absolute top-[0px] left-[0px] bg-gray-300 w-full h-full z-[2]" />
-        <div className="absolute top-[254px] left-[1336px] rounded-[50%] bg-olivedrab-200 w-[15px] h-[15px] z-[3]" />
-        <div className="absolute top-[280px] left-[1336px] rounded-[50%] bg-olivedrab-200 w-[15px] h-[15px] z-[3]" />
+        <div className="absolute top-[254px] left-[1249px] rounded-[50%] bg-olivedrab-200 w-[15px] h-[15px] z-[3]" />
+        <div className="absolute top-[280px] left-[1249px] rounded-[50%] bg-olivedrab-200 w-[15px] h-[15px] z-[3]" />
       </div>
       <div className="w-[1208px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-center text-base">
         <div className="relative leading-[157.13%] z-[3]">

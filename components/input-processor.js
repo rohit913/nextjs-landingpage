@@ -16,7 +16,7 @@ const InputProcessor = () => {
           </div>
         </div>
       </div>
-      <div className="w-[1258px] h-[598px] overflow-x-auto shrink-0 flex flex-row items-end justify-start gap-[26px] max-w-full mt-[-182px] pt-[182px] text-right text-xl">
+      <div className="w-[1258px] h-[598px] overflow-x-auto-[none] shrink-0 flex flex-row items-end justify-start gap-[26px] max-w-full mt-[-182px] pt-[182px] text-right text-xl">
         <div className="self-stretch w-[402px] shrink-0 flex flex-row items-end justify-start relative">
           <img
             className="h-full w-full absolute !m-[0] top-[0px] right-[0.1px] object-cover"

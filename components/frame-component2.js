@@ -27,9 +27,9 @@ const FrameComponent2 = ({
       style={frameDivStyle}
     >
       <div className="w-[379px] h-[191px] relative bg-darkslateblue-200 hidden max-w-full" />
-      <div className="self-stretch flex flex-row items-start justify-start py-0 px-[73px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+      <div className="self-stretch flex flex-row items-start justify-start py-0 px-[33px]  mq450:pl-5 mq450:pr-5 mq450:box-border">
         <div
-          className="h-[33px] w-32 relative leading-[144.5%] uppercase inline-block z-[1]"
+          className="h-[53px] w-32 relative leading-[144.5%] uppercase inline-block z-[1]"
           style={hAPPYCUSTOMERSStyle}
         >
           <p className="m-0">{hAPPY}</p>
